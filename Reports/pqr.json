@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-07T04:00:35.699Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDef.purchageTest.m3()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Search the product and add it to cart",
+        "description": "",
+        "id": "purchage;search-the-product-and-add-it-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4247000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is at home page",
+            "match": {
+              "location": "com.stepDef.purchageTest.s1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5295000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "he search the product",
+            "match": {
+              "location": "com.stepDef.purchageTest.s2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2863000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "add it to cart",
+            "match": {
+              "location": "com.stepDef.purchageTest.add_it_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1550000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "proceed to Payment page",
+            "match": {
+              "location": "com.stepDef.purchageTest.proceed_to_Payment_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchage",
+    "description": "",
+    "id": "purchage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Purchage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17576" started-at="2020-10-07T10:10:12 IST" finished-at="2020-10-07T10:10:30 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.runnerCls@4d95d2a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="17576" started-at="2020-10-07T10:10:12 IST" finished-at="2020-10-07T10:10:30 IST">
+      <class name="com.Runner.runnerCls">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Runner.runnerCls@4d95d2a2]" name="setUpClass" is-config="true" duration-ms="369" started-at="2020-10-07T10:10:12 IST" finished-at="2020-10-07T10:10:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="crsBro(java.lang.String)[pri:0, instance:com.Runner.runnerCls@4d95d2a2]" name="crsBro" is-config="true" duration-ms="4526" started-at="2020-10-07T10:10:12 IST" finished-at="2020-10-07T10:10:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crsBro -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.runnerCls@4d95d2a2]" name="runScenario" duration-ms="12472" started-at="2020-10-07T10:10:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-10-07T10:10:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search the product and add it to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Runner.runnerCls@4d95d2a2]" name="tearDownClass" is-config="true" duration-ms="135" started-at="2020-10-07T10:10:30 IST" finished-at="2020-10-07T10:10:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Runner.runnerCls -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
